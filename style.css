@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500;700&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background: rgb(2, 13, 0);
+    color: rgb(227, 214, 214);
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    
+
+}
+
+#navigation {
+
+    margin: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.navigation_brand {
+
+    margin: 20px 10px;
+    font-weight: 700;
+
+}
+
+.navigation_menu {
+
+    display: flex;
+    margin: 20px 10px;
+    box-sizing: border-box;
+    font-weight: 300;
+    padding: 0px 10px;
+    border: 2px solid transparent;
+
+}
+
+.navigation_menu li {
+
+    list-style: none;
+    margin: 0px 15px;
+    border-bottom: transparent 2px solid;
+
+}
+
+.navigation_menu li:hover {
+
+    border-bottom: rgb(227, 214, 214) 2px solid;
+   
+}
+
+#books {
+
+    margin: 90px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.book {
+
+    width: 33%;
+    margin: 0px;
+
+}
+
+.book p {
+
+    text-align: center;
+    font-weight: 500;
+
+}
+
+#book_img {
+    
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+#poems {
+
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.poem {
+
+    width: 50%;
+    height: 300px;
+    margin-top: 50px;
+
+}
+
+.poem2 {
+
+    width: 50%;
+    height: 300px;
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+
+#about_me {
+
+    height: 480px;
+    display: flex;
+    margin: 20px 0px;
+    background-color: #D85841;
+
+}
+
+#about_me img {
+
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    margin: 40px 90px;
+
+}
+
+.about_me_text {
+
+    margin-right: 90px;
+
+}
+

@@ -1,0 +1,25 @@
+{
+  "name": "textos",
+  "version": "1.0.0",
+  "description": "Textos:\r Un blog personal para una poeta, en donde estaran todos sus datos y trabajos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianCabralG/textos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianCabralG/textos/issues"
+  },
+  "homepage": "https://github.com/BrianCabralG/textos#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}

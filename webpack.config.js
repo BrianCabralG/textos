@@ -8,5 +8,16 @@ module.exports = {
     },
     resolve: {
         extensions: ['.js'] //aca van los tipos de extenciones que vamos a usar, en este ejemplo javascript.
-    }
+    },
+    module: {
+        rules:[
+            {
+                test: /\.m?js$/, //le dice a webpack que solo vamos a utilizar los archivos terminados en .mjs o .js
+                exclude: /node_modules/, //excluimos los modulos de node para que no se rompa la app
+                use:{
+                    loader: 'babel-loader'
+                }
+            }
+        ]
+    },
 }
